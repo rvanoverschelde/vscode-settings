@@ -1,0 +1,28 @@
+{
+    "rubocop.autocorrect": false,
+    "rubocop.commandPath": "C:\\Ruby32-x64\\bin\\rubocop.bat",
+    "[ruby]": {
+        "editor.formatOnSave": false,
+        "editor.rulers": [ // https://rubystyle.guide/#max-line-length
+            {
+                "column": 80,
+                "color": "#ffcc00"
+            },
+            {
+                "column": 100,
+                "color": "#ff0000"
+            },
+            {
+                "column": 120,
+                "color": "#660000"
+            }
+        ],
+        "editor.renderWhitespace": "all", // https://rubystyle.guide/#no-trailing-whitespace
+        "editor.detectIndentation": true, // https://rubystyle.guide/#tabs-or-spaces
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2, // https://rubystyle.guide/#spaces-indentation
+        "files.encoding": "utf8", // https: //rubystyle.guide/#utf-8
+        "files.eol": "\n", // https://rubystyle.guide/#crlf
+        "files.insertFinalNewline": true, // https://rubystyle.guide/#newline-eof
+    }
+}
