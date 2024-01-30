@@ -1,6 +1,6 @@
 {
     "rubocop.autocorrect": false,
-    "rubocop.commandPath": "C:\\Ruby32-x64\\bin\\rubocop.bat",
+    "rubocop.commandPath": "C:\\path\\to\\rubocop.bat",
     "[ruby]": {
         "editor.formatOnSave": false,
         "editor.rulers": [ // https://rubystyle.guide/#max-line-length
